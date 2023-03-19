@@ -3,6 +3,13 @@ package com.pj.collections.arraylist;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * This class demonstrates how to create and use an <code>ArrayList</code>.
+ * 
+ * @author pjmwa
+ * @see    java.util.ArrayList
+ * @see    java.util.Iterator
+ */
 public class LearnArrayList {
 
 	public static void main(String[] args) {
@@ -52,5 +59,4 @@ public class LearnArrayList {
 	    languages.clear();
         System.out.println("ArrayList after clear(): " + languages);
 	}
-
 }

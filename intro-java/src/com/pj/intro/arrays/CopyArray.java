@@ -2,10 +2,18 @@ package com.pj.intro.arrays;
 
 import java.util.Arrays;
 
+/**
+ * This class demonstrates the various ways of copying arrays.
+ * 
+ * @author pjmwa
+ * @see    java.util.Arrays
+ */
 public class CopyArray {
 
 	public static void main(String[] args) {
-		// 1. Copying Arrays Using Assignment Operator
+		/*
+		 *  1. Copying Arrays Using Assignment Operator
+		 */
 		int [] numbers = {1, 2, 3, 4, 5, 6};
         int [] positiveNumbers = numbers;    // copying arrays - Shallow Copy
       
@@ -18,7 +26,9 @@ public class CopyArray {
         }
         System.out.println();
         
-        // 2. Using Looping Construct to Copy Arrays
+        /*
+         *  2. Using Looping Construct to Copy Arrays
+         */
         int [] source = {1, 2, 3, 4, 5, 6};
         int [] destination = new int[6];
 
@@ -30,7 +40,9 @@ public class CopyArray {
          // converting array to string
         System.out.println(Arrays.toString(destination));
         
-        // 3. Copying Arrays Using arraycopy() method
+        /*
+         *  3. Copying Arrays Using arraycopy() method
+         */
         int[] n1 = {2, 3, 12, 4, 12, -2};
         
         int[] n3 = new int[5];
@@ -48,7 +60,9 @@ public class CopyArray {
         System.arraycopy(n1, 2, n3, 1, 2);
         System.out.println("n3 = " + Arrays.toString(n3));
         
-        // 4. Copying Arrays Using copyOfRange() method
+        /*
+         *  4. Copying Arrays Using copyOfRange() method
+         */
         int[] src = {2, 3, 12, 4, 12, -2};
         
         // copying entire source array to destination
@@ -59,7 +73,9 @@ public class CopyArray {
         int[] destination2 = Arrays.copyOfRange(src, 2, 5); 
         System.out.println("destination2 = " + Arrays.toString(destination2)); 
         
-        // 5. Copying 2d Arrays Using Loop
+        /*
+         *  5. Copying 2d Arrays Using Loop
+         */
         int[][] oldArray = {
                 {1, 2, 3, 4}, 
                 {5, 6},
@@ -69,7 +85,6 @@ public class CopyArray {
           int[][] newArray = new int[oldArray.length][];
 
           for (int i = 0; i < newArray.length; ++i) {
-
               // allocating space for each row of destination array
         	  newArray[i] = new int[oldArray[i].length];
 
@@ -81,7 +96,9 @@ public class CopyArray {
           // displaying destination array
           System.out.println(Arrays.deepToString(newArray));  
         
-          // 6. Copying 2d Arrays using arraycopy()
+          /*
+           *  6. Copying 2d Arrays using arraycopy()
+           */
           int[][] oldArray2 = {
                   {1, 2, 3, 4}, 
                   {5, 6},
@@ -91,10 +108,9 @@ public class CopyArray {
             int[][] newArray2 = new int[oldArray2.length][];
 
             for (int i = 0; i < oldArray2.length; ++i) {
-
-                 // allocating space for each row of destination array
+                // allocating space for each row of destination array
             	newArray2[i] = new int[oldArray2[i].length];
-                 System.arraycopy(oldArray2[i], 0, newArray2[i], 0, newArray2[i].length);
+                System.arraycopy(oldArray2[i], 0, newArray2[i], 0, newArray2[i].length);
             }
          
             // displaying destination array

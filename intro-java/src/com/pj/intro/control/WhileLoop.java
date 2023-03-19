@@ -1,7 +1,15 @@
 package com.pj.intro.control;
 
 import java.util.Scanner;
-
+/**
+ * WhileLoop class
+ * <p>
+ * Demonstrate how to use the while loop and the do-while loop
+ * to create iterations in code.
+ * 
+ * @author pjmwa
+ * @se     java.util.Scanner
+ */
 public class WhileLoop {
 
 	public static void main(String[] args) {
@@ -45,7 +53,7 @@ public class WhileLoop {
 	    /*
 	     * do-while loop
 	     * 
-	     * Ex3. 
+	     * Ex3. Loop from 1 to 5
 	     */
 	    int j = 1, m = 5;
 
@@ -56,7 +64,7 @@ public class WhileLoop {
 	    } while(j <= m);
 
 	    /*
-	     * Ex4. 
+	     * Ex4. Loop while entered number is positive
 	     */
 	    int total = 0;
 	    int num = 0;

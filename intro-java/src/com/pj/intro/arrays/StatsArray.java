@@ -1,5 +1,10 @@
 package com.pj.intro.arrays;
 
+/**
+ * This class demonstrates how to use arrays and loops in statistical calculations.
+ * 
+ * @author pjmwa
+ */
 public class StatsArray {
 
 	public static void main(String[] args) {
@@ -23,5 +28,4 @@ public class StatsArray {
 	    System.out.println("Sum = " + sum);
 	    System.out.println("Average = " + average);
 	}
-
 }

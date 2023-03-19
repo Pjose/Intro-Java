@@ -3,6 +3,17 @@ package com.pj.collections.queue;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
+/**
+ * This class demonstrates how to create and use a <code>PriorityQueue</code>.
+ * <p>
+ * The <code>PriorityQueue</code> class provides the functionality of the heap data structure. 
+ * It implements the <code>Queue</code> interface. Unlike normal queues, priority queue elements 
+ * are retrieved in sorted order.
+ * 
+ * @author pjmwa
+ * @see    java.util.Iterator
+ * @see    java.util.PriorityQueue
+ */
 public class LearnPriorityQueue {
 
 	public static void main(String[] args) {
@@ -42,5 +53,4 @@ public class LearnPriorityQueue {
             System.out.print(", ");
         }
 	}
-
 }

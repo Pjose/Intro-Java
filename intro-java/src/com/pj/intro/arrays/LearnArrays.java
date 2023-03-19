@@ -1,5 +1,10 @@
 package com.pj.intro.arrays;
 
+/**
+ * This class demonstrates how create and use arrays.
+ * 
+ * @author pjmwa
+ */
 public class LearnArrays {
 
 	public static void main(String[] args) {

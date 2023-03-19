@@ -2,6 +2,14 @@ package com.pj.intro.arrays.exercise;
 
 import java.util.Scanner;
 
+/**
+ * ArrayEx1 - Array Exercise 1
+ * 
+ * <p>Exercise questions to practice how to use arrays.</p>
+ * 
+ * @author pjmwa
+ * @see    java.util.Scanner
+ */
 public class ArrayEx1 {
 
 	public static void main(String[] args) {

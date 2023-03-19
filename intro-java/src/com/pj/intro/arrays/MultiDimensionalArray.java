@@ -1,5 +1,10 @@
 package com.pj.intro.arrays;
 
+/**
+ * This class demonstrates how to create and use multi-dimensional arrays.
+ * 
+ * @author pjmwa
+ */
 public class MultiDimensionalArray {
 
 	public static void main(String[] args) {

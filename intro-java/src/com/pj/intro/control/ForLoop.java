@@ -1,22 +1,35 @@
 package com.pj.intro.control;
 
+/**
+ * ForLoop class
+ * <p>
+ * Demonstrate how to use the for loop and create iterations in code.
+ * 
+ * @author pjmwa
+ */
 public class ForLoop {
 
 	public static void main(String[] args) {
-		//Ex1. Display a Text Five Times
+		/*
+		 * Ex1. Display a Text Five Times
+		 */
 		int n = 5;
 	    // for loop  
 	    for (int i = 1; i <= n; ++i) {
 	      System.out.println("Java is fun");
 	    }
 	    
-	    //Ex2. Display numbers from 1 to 5
+	    /*
+	     * Ex2. Display numbers from 1 to 5
+	     */
 	    // for loop  
 	    for (int i = 1; i <= n; ++i) {
 	      System.out.println(i);
 	    }
 	    
-	    //Ex3. Sum of m Natural Numbers
+	    /*
+	     * Ex3. Sum of m Natural Numbers
+	     */
 	    int sum = 0;
 	    int m = 1000;
 
@@ -39,7 +52,10 @@ public class ForLoop {
 	       System.out.println(number);
 	    }
 	    
-	    // Ex5. 
+	    /*
+	     * Ex5. Iterating through each element of the array using for-each loop
+	     * and find the total.
+	     */
 	    int[] myNumbers = {3, 4, 5, -5, 0, 12};
 	    int total = 0;
 

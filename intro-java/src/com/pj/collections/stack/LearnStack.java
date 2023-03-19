@@ -2,6 +2,12 @@ package com.pj.collections.stack;
 
 import java.util.Stack;
 
+/**
+ * This class demonstrates how to create and use a stack using the <code>Stack</code> class.
+ * 
+ * @author pjmwa
+ * @see    java.util.Stack
+ */
 public class LearnStack {
 
 	public static void main(String[] args) {
@@ -32,5 +38,4 @@ public class LearnStack {
         System.out.println("Is the stack empty? " + result);
         
 	}
-
 }

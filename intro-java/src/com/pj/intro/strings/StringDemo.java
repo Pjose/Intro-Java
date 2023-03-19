@@ -1,5 +1,11 @@
 package com.pj.intro.strings;
 
+/**
+ * This class demonstrates how to create strings using the <code>String</code>
+ * class and shows how to use the methods associated with the class.
+ * 
+ * @author pjmwa
+ */
 public class StringDemo {
 
 	public static void main(String args[]) {

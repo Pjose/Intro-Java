@@ -3,7 +3,14 @@ package com.pj.collections.queue;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
-
+/**
+ * This class demonstrates how to create and use a <code>Queue</code>.
+ * 
+ * @author pjmwa
+ * @see    java.util.LinkedList
+ * @see    java.util.PriorityQueue
+ * @see    java.util.Queue
+ */
 public class LearnQueue {
 
 	public static void main(String[] args) {
@@ -48,8 +55,5 @@ public class LearnQueue {
         System.out.println("Removed Element: " + removedNumber);
 
         System.out.println("Updated Queue: " + numbers2);
-        
-        
 	}
-
 }
